@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02BE2C741FA923A4A0122100 /* Pods_MoodDiaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC108B305207169921BA16D /* Pods_MoodDiaryTests.framework */; };
+		3DCB6F8828F3BFAC00A13FAB /* MoodDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB6F8728F3BFAC00A13FAB /* MoodDiaryApp.swift */; };
+		3DCB6F8A28F3BFAC00A13FAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB6F8928F3BFAC00A13FAB /* ContentView.swift */; };
+		3DCB6F8C28F3BFAC00A13FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB6F8B28F3BFAC00A13FAB /* Assets.xcassets */; };
+		3DCB6F8F28F3BFAC00A13FAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB6F8E28F3BFAC00A13FAB /* Preview Assets.xcassets */; };
+		3DCB6F9928F3BFAC00A13FAB /* MoodDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB6F9828F3BFAC00A13FAB /* MoodDiaryTests.swift */; };
+		3DCB6FA328F3BFAC00A13FAB /* MoodDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB6FA228F3BFAC00A13FAB /* MoodDiaryUITests.swift */; };
+		3DCB6FA528F3BFAC00A13FAB /* MoodDiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB6FA428F3BFAC00A13FAB /* MoodDiaryUITestsLaunchTests.swift */; };
+		4A64E755881F3972DA0ADB1C /* Pods_MoodDiary_MoodDiaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771FEBB999DEDBD07F8AEEFE /* Pods_MoodDiary_MoodDiaryUITests.framework */; };
+		BF02F8B27185CA1F513AC02B /* Pods_MoodDiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9ED8D36A96CCCEF7A0C58C3 /* Pods_MoodDiary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DCB6F9528F3BFAC00A13FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCB6F7C28F3BFAC00A13FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCB6F8328F3BFAC00A13FAB;
+			remoteInfo = MoodDiary;
+		};
+		3DCB6F9F28F3BFAC00A13FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DCB6F7C28F3BFAC00A13FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DCB6F8328F3BFAC00A13FAB;
+			remoteInfo = MoodDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F732987873B18370A3591C /* Pods-MoodDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodDiary.debug.xcconfig"; path = "Target Support Files/Pods-MoodDiary/Pods-MoodDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		3DCB6F8428F3BFAC00A13FAB /* MoodDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCB6F8728F3BFAC00A13FAB /* MoodDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryApp.swift; sourceTree = "<group>"; };
+		3DCB6F8928F3BFAC00A13FAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DCB6F8B28F3BFAC00A13FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCB6F8E28F3BFAC00A13FAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DCB6F9428F3BFAC00A13FAB /* MoodDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCB6F9828F3BFAC00A13FAB /* MoodDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryTests.swift; sourceTree = "<group>"; };
+		3DCB6F9E28F3BFAC00A13FAB /* MoodDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCB6FA228F3BFAC00A13FAB /* MoodDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryUITests.swift; sourceTree = "<group>"; };
+		3DCB6FA428F3BFAC00A13FAB /* MoodDiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D23E81E5072047376989848 /* Pods-MoodDiaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodDiaryTests.release.xcconfig"; path = "Target Support Files/Pods-MoodDiaryTests/Pods-MoodDiaryTests.release.xcconfig"; sourceTree = "<group>"; };
+		511936FBB032F9B3D6C065E1 /* Pods-MoodDiary-MoodDiaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodDiary-MoodDiaryUITests.release.xcconfig"; path = "Target Support Files/Pods-MoodDiary-MoodDiaryUITests/Pods-MoodDiary-MoodDiaryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6FC108B305207169921BA16D /* Pods_MoodDiaryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodDiaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		771FEBB999DEDBD07F8AEEFE /* Pods_MoodDiary_MoodDiaryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodDiary_MoodDiaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E93E3643F7700BB4CAD2AF7 /* Pods-MoodDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodDiary.release.xcconfig"; path = "Target Support Files/Pods-MoodDiary/Pods-MoodDiary.release.xcconfig"; sourceTree = "<group>"; };
+		A7FC22A03AC82CD79AB7BE07 /* Pods-MoodDiary-MoodDiaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodDiary-MoodDiaryUITests.debug.xcconfig"; path = "Target Support Files/Pods-MoodDiary-MoodDiaryUITests/Pods-MoodDiary-MoodDiaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D00D36D2C3A1F5E29FA2CB36 /* Pods-MoodDiaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodDiaryTests.debug.xcconfig"; path = "Target Support Files/Pods-MoodDiaryTests/Pods-MoodDiaryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9ED8D36A96CCCEF7A0C58C3 /* Pods_MoodDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCB6F8128F3BFAC00A13FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF02F8B27185CA1F513AC02B /* Pods_MoodDiary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCB6F9128F3BFAC00A13FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BE2C741FA923A4A0122100 /* Pods_MoodDiaryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCB6F9B28F3BFAC00A13FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A64E755881F3972DA0ADB1C /* Pods_MoodDiary_MoodDiaryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCB6F7B28F3BFAC00A13FAB = {
+			isa = PBXGroup;
+			children = (
+				3DCB6F8628F3BFAC00A13FAB /* MoodDiary */,
+				3DCB6F9728F3BFAC00A13FAB /* MoodDiaryTests */,
+				3DCB6FA128F3BFAC00A13FAB /* MoodDiaryUITests */,
+				3DCB6F8528F3BFAC00A13FAB /* Products */,
+				76703A38084DE0569C92A14B /* Pods */,
+				85465D24E2FA163278C79D41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCB6F8528F3BFAC00A13FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCB6F8428F3BFAC00A13FAB /* MoodDiary.app */,
+				3DCB6F9428F3BFAC00A13FAB /* MoodDiaryTests.xctest */,
+				3DCB6F9E28F3BFAC00A13FAB /* MoodDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCB6F8628F3BFAC00A13FAB /* MoodDiary */ = {
+			isa = PBXGroup;
+			children = (
+				3DCB6F8728F3BFAC00A13FAB /* MoodDiaryApp.swift */,
+				3DCB6F8928F3BFAC00A13FAB /* ContentView.swift */,
+				3DCB6F8B28F3BFAC00A13FAB /* Assets.xcassets */,
+				3DCB6F8D28F3BFAC00A13FAB /* Preview Content */,
+			);
+			path = MoodDiary;
+			sourceTree = "<group>";
+		};
+		3DCB6F8D28F3BFAC00A13FAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DCB6F8E28F3BFAC00A13FAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DCB6F9728F3BFAC00A13FAB /* MoodDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCB6F9828F3BFAC00A13FAB /* MoodDiaryTests.swift */,
+			);
+			path = MoodDiaryTests;
+			sourceTree = "<group>";
+		};
+		3DCB6FA128F3BFAC00A13FAB /* MoodDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCB6FA228F3BFAC00A13FAB /* MoodDiaryUITests.swift */,
+				3DCB6FA428F3BFAC00A13FAB /* MoodDiaryUITestsLaunchTests.swift */,
+			);
+			path = MoodDiaryUITests;
+			sourceTree = "<group>";
+		};
+		76703A38084DE0569C92A14B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02F732987873B18370A3591C /* Pods-MoodDiary.debug.xcconfig */,
+				8E93E3643F7700BB4CAD2AF7 /* Pods-MoodDiary.release.xcconfig */,
+				A7FC22A03AC82CD79AB7BE07 /* Pods-MoodDiary-MoodDiaryUITests.debug.xcconfig */,
+				511936FBB032F9B3D6C065E1 /* Pods-MoodDiary-MoodDiaryUITests.release.xcconfig */,
+				D00D36D2C3A1F5E29FA2CB36 /* Pods-MoodDiaryTests.debug.xcconfig */,
+				4D23E81E5072047376989848 /* Pods-MoodDiaryTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		85465D24E2FA163278C79D41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9ED8D36A96CCCEF7A0C58C3 /* Pods_MoodDiary.framework */,
+				771FEBB999DEDBD07F8AEEFE /* Pods_MoodDiary_MoodDiaryUITests.framework */,
+				6FC108B305207169921BA16D /* Pods_MoodDiaryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCB6F8328F3BFAC00A13FAB /* MoodDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCB6FA828F3BFAC00A13FAB /* Build configuration list for PBXNativeTarget "MoodDiary" */;
+			buildPhases = (
+				334F9C7409FBD35B7F8CF1EA /* [CP] Check Pods Manifest.lock */,
+				3DCB6F8028F3BFAC00A13FAB /* Sources */,
+				3DCB6F8128F3BFAC00A13FAB /* Frameworks */,
+				3DCB6F8228F3BFAC00A13FAB /* Resources */,
+				C35B5D2D1908906CE1C409E5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodDiary;
+			productName = MoodDiary;
+			productReference = 3DCB6F8428F3BFAC00A13FAB /* MoodDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DCB6F9328F3BFAC00A13FAB /* MoodDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCB6FAB28F3BFAC00A13FAB /* Build configuration list for PBXNativeTarget "MoodDiaryTests" */;
+			buildPhases = (
+				C11B2450816343F5A74BF6AB /* [CP] Check Pods Manifest.lock */,
+				3DCB6F9028F3BFAC00A13FAB /* Sources */,
+				3DCB6F9128F3BFAC00A13FAB /* Frameworks */,
+				3DCB6F9228F3BFAC00A13FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCB6F9628F3BFAC00A13FAB /* PBXTargetDependency */,
+			);
+			name = MoodDiaryTests;
+			productName = MoodDiaryTests;
+			productReference = 3DCB6F9428F3BFAC00A13FAB /* MoodDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DCB6F9D28F3BFAC00A13FAB /* MoodDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCB6FAE28F3BFAC00A13FAB /* Build configuration list for PBXNativeTarget "MoodDiaryUITests" */;
+			buildPhases = (
+				6384278C7BC2DCB96548F2B7 /* [CP] Check Pods Manifest.lock */,
+				3DCB6F9A28F3BFAC00A13FAB /* Sources */,
+				3DCB6F9B28F3BFAC00A13FAB /* Frameworks */,
+				3DCB6F9C28F3BFAC00A13FAB /* Resources */,
+				6079AF59F1499834CE24C118 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DCB6FA028F3BFAC00A13FAB /* PBXTargetDependency */,
+			);
+			name = MoodDiaryUITests;
+			productName = MoodDiaryUITests;
+			productReference = 3DCB6F9E28F3BFAC00A13FAB /* MoodDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCB6F7C28F3BFAC00A13FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3DCB6F8328F3BFAC00A13FAB = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					3DCB6F9328F3BFAC00A13FAB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3DCB6F8328F3BFAC00A13FAB;
+					};
+					3DCB6F9D28F3BFAC00A13FAB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3DCB6F8328F3BFAC00A13FAB;
+					};
+				};
+			};
+			buildConfigurationList = 3DCB6F7F28F3BFAC00A13FAB /* Build configuration list for PBXProject "MoodDiary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DCB6F7B28F3BFAC00A13FAB;
+			productRefGroup = 3DCB6F8528F3BFAC00A13FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCB6F8328F3BFAC00A13FAB /* MoodDiary */,
+				3DCB6F9328F3BFAC00A13FAB /* MoodDiaryTests */,
+				3DCB6F9D28F3BFAC00A13FAB /* MoodDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCB6F8228F3BFAC00A13FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCB6F8F28F3BFAC00A13FAB /* Preview Assets.xcassets in Resources */,
+				3DCB6F8C28F3BFAC00A13FAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCB6F9228F3BFAC00A13FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCB6F9C28F3BFAC00A13FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		334F9C7409FBD35B7F8CF1EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodDiary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6079AF59F1499834CE24C118 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodDiary-MoodDiaryUITests/Pods-MoodDiary-MoodDiaryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodDiary-MoodDiaryUITests/Pods-MoodDiary-MoodDiaryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoodDiary-MoodDiaryUITests/Pods-MoodDiary-MoodDiaryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6384278C7BC2DCB96548F2B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodDiary-MoodDiaryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C11B2450816343F5A74BF6AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodDiaryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C35B5D2D1908906CE1C409E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodDiary/Pods-MoodDiary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodDiary/Pods-MoodDiary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoodDiary/Pods-MoodDiary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCB6F8028F3BFAC00A13FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCB6F8A28F3BFAC00A13FAB /* ContentView.swift in Sources */,
+				3DCB6F8828F3BFAC00A13FAB /* MoodDiaryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCB6F9028F3BFAC00A13FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCB6F9928F3BFAC00A13FAB /* MoodDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DCB6F9A28F3BFAC00A13FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCB6FA328F3BFAC00A13FAB /* MoodDiaryUITests.swift in Sources */,
+				3DCB6FA528F3BFAC00A13FAB /* MoodDiaryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DCB6F9628F3BFAC00A13FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCB6F8328F3BFAC00A13FAB /* MoodDiary */;
+			targetProxy = 3DCB6F9528F3BFAC00A13FAB /* PBXContainerItemProxy */;
+		};
+		3DCB6FA028F3BFAC00A13FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DCB6F8328F3BFAC00A13FAB /* MoodDiary */;
+			targetProxy = 3DCB6F9F28F3BFAC00A13FAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DCB6FA628F3BFAC00A13FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DCB6FA728F3BFAC00A13FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCB6FA928F3BFAC00A13FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F732987873B18370A3591C /* Pods-MoodDiary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoodDiary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeckLee.MoodDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DCB6FAA28F3BFAC00A13FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E93E3643F7700BB4CAD2AF7 /* Pods-MoodDiary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoodDiary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeckLee.MoodDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DCB6FAC28F3BFAC00A13FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00D36D2C3A1F5E29FA2CB36 /* Pods-MoodDiaryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeckLee.MoodDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodDiary";
+			};
+			name = Debug;
+		};
+		3DCB6FAD28F3BFAC00A13FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D23E81E5072047376989848 /* Pods-MoodDiaryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeckLee.MoodDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodDiary";
+			};
+			name = Release;
+		};
+		3DCB6FAF28F3BFAC00A13FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7FC22A03AC82CD79AB7BE07 /* Pods-MoodDiary-MoodDiaryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeckLee.MoodDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoodDiary;
+			};
+			name = Debug;
+		};
+		3DCB6FB028F3BFAC00A13FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511936FBB032F9B3D6C065E1 /* Pods-MoodDiary-MoodDiaryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeckLee.MoodDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoodDiary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCB6F7F28F3BFAC00A13FAB /* Build configuration list for PBXProject "MoodDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCB6FA628F3BFAC00A13FAB /* Debug */,
+				3DCB6FA728F3BFAC00A13FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCB6FA828F3BFAC00A13FAB /* Build configuration list for PBXNativeTarget "MoodDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCB6FA928F3BFAC00A13FAB /* Debug */,
+				3DCB6FAA28F3BFAC00A13FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCB6FAB28F3BFAC00A13FAB /* Build configuration list for PBXNativeTarget "MoodDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCB6FAC28F3BFAC00A13FAB /* Debug */,
+				3DCB6FAD28F3BFAC00A13FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCB6FAE28F3BFAC00A13FAB /* Build configuration list for PBXNativeTarget "MoodDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCB6FAF28F3BFAC00A13FAB /* Debug */,
+				3DCB6FB028F3BFAC00A13FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCB6F7C28F3BFAC00A13FAB /* Project object */;
+}
