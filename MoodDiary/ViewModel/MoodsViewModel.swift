@@ -12,8 +12,8 @@ class MoodsViewModel {
 	 특정 날짜를 입력하면, 그 달의 첫 번째 요일과 그 달의 전체 일수를 반환
 	 - Returns: weekday: 1: 일요일 / 2: 월요일 / 3: 화요일 / 4: 수요일 / 5: 목요일 / 6: 금요일 / 7: 토요일
 	 */
-	func getFirtstWeekdayAndDaysCountOfMonth(date: Date) -> (weekday: Int, daysCount: Int) {
-		return (1, 2)
+	func getFirtstWeekdayAndDaysCountOfMonth(date: Date) -> (weekday: Weekday, daysCount: Int) {
+		return (.sun, 2)
 	}
 	/**
 	 View에 그릴 첫 번째 요일의 실제 인덱스 반환
@@ -22,7 +22,7 @@ class MoodsViewModel {
 	   - fisrtWeekday: 해당 월의 첫 번째 시작 요일
 	 - Returns: index
 	 */
-	func getFirstIndexForDrawing(isStartSun: Bool, fisrtWeekday: Int) -> Int {
+	func getFirstIndexForDrawing(isStartSun: Bool, fisrtWeekday: Weekday) -> Int {
 		return 1
 	}
 	/**
@@ -32,7 +32,7 @@ class MoodsViewModel {
 	   - fisrtWeekday: 해당 월의 첫 번째 시작 요일
 	 - Returns: count
 	 */
-	func getEmptyCountForDrawing(isStartSun: Bool, fisrtWeekday: Int) -> Int {
+	func getEmptyCountForDrawing(isStartSun: Bool, fisrtWeekday: Weekday) -> Int {
 		return 1
 	}
 	/**

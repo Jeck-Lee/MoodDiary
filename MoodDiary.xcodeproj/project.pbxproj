@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02BE2C741FA923A4A0122100 /* Pods_MoodDiaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC108B305207169921BA16D /* Pods_MoodDiaryTests.framework */; };
+		3D3DC758290396DA00A820C5 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DC757290396DA00A820C5 /* Util.swift */; };
 		3DCB6F8828F3BFAC00A13FAB /* MoodDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB6F8728F3BFAC00A13FAB /* MoodDiaryApp.swift */; };
 		3DCB6F8A28F3BFAC00A13FAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB6F8928F3BFAC00A13FAB /* ContentView.swift */; };
 		3DCB6F8C28F3BFAC00A13FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCB6F8B28F3BFAC00A13FAB /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		02F732987873B18370A3591C /* Pods-MoodDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodDiary.debug.xcconfig"; path = "Target Support Files/Pods-MoodDiary/Pods-MoodDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		3D3DC757290396DA00A820C5 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		3DCB6F8428F3BFAC00A13FAB /* MoodDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCB6F8728F3BFAC00A13FAB /* MoodDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryApp.swift; sourceTree = "<group>"; };
 		3DCB6F8928F3BFAC00A13FAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D3DC756290396C500A820C5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3D3DC757290396DA00A820C5 /* Util.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		3DCB6F7B28F3BFAC00A13FAB = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 			children = (
 				3DCB6F8728F3BFAC00A13FAB /* MoodDiaryApp.swift */,
 				3DCB6F8928F3BFAC00A13FAB /* ContentView.swift */,
+				3D3DC756290396C500A820C5 /* Common */,
 				3DCB6FB328F3C66400A13FAB /* ViewModel */,
 				3DCB6F8B28F3BFAC00A13FAB /* Assets.xcassets */,
 				3DCB6F8D28F3BFAC00A13FAB /* Preview Content */,
@@ -419,6 +430,7 @@
 				3DCB6FB528F3C6AE00A13FAB /* MoodsViewModel.swift in Sources */,
 				3DCB6F8A28F3BFAC00A13FAB /* ContentView.swift in Sources */,
 				3DCB6F8828F3BFAC00A13FAB /* MoodDiaryApp.swift in Sources */,
+				3D3DC758290396DA00A820C5 /* Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
