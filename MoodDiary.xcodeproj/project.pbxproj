@@ -15,6 +15,7 @@
 		3DCB6F9928F3BFAC00A13FAB /* MoodDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB6F9828F3BFAC00A13FAB /* MoodDiaryTests.swift */; };
 		3DCB6FA328F3BFAC00A13FAB /* MoodDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB6FA228F3BFAC00A13FAB /* MoodDiaryUITests.swift */; };
 		3DCB6FA528F3BFAC00A13FAB /* MoodDiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB6FA428F3BFAC00A13FAB /* MoodDiaryUITestsLaunchTests.swift */; };
+		3DCB6FB528F3C6AE00A13FAB /* MoodsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCB6FB428F3C6AE00A13FAB /* MoodsViewModel.swift */; };
 		4A64E755881F3972DA0ADB1C /* Pods_MoodDiary_MoodDiaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771FEBB999DEDBD07F8AEEFE /* Pods_MoodDiary_MoodDiaryUITests.framework */; };
 		BF02F8B27185CA1F513AC02B /* Pods_MoodDiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9ED8D36A96CCCEF7A0C58C3 /* Pods_MoodDiary.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		3DCB6F9E28F3BFAC00A13FAB /* MoodDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCB6FA228F3BFAC00A13FAB /* MoodDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryUITests.swift; sourceTree = "<group>"; };
 		3DCB6FA428F3BFAC00A13FAB /* MoodDiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DCB6FB428F3C6AE00A13FAB /* MoodsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsViewModel.swift; sourceTree = "<group>"; };
 		4D23E81E5072047376989848 /* Pods-MoodDiaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodDiaryTests.release.xcconfig"; path = "Target Support Files/Pods-MoodDiaryTests/Pods-MoodDiaryTests.release.xcconfig"; sourceTree = "<group>"; };
 		511936FBB032F9B3D6C065E1 /* Pods-MoodDiary-MoodDiaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodDiary-MoodDiaryUITests.release.xcconfig"; path = "Target Support Files/Pods-MoodDiary-MoodDiaryUITests/Pods-MoodDiary-MoodDiaryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6FC108B305207169921BA16D /* Pods_MoodDiaryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodDiaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,7 @@
 			children = (
 				3DCB6F8728F3BFAC00A13FAB /* MoodDiaryApp.swift */,
 				3DCB6F8928F3BFAC00A13FAB /* ContentView.swift */,
+				3DCB6FB328F3C66400A13FAB /* ViewModel */,
 				3DCB6F8B28F3BFAC00A13FAB /* Assets.xcassets */,
 				3DCB6F8D28F3BFAC00A13FAB /* Preview Content */,
 			);
@@ -144,6 +147,14 @@
 			path = MoodDiaryUITests;
 			sourceTree = "<group>";
 		};
+		3DCB6FB328F3C66400A13FAB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3DCB6FB428F3C6AE00A13FAB /* MoodsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		76703A38084DE0569C92A14B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +165,6 @@
 				D00D36D2C3A1F5E29FA2CB36 /* Pods-MoodDiaryTests.debug.xcconfig */,
 				4D23E81E5072047376989848 /* Pods-MoodDiaryTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -406,6 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DCB6FB528F3C6AE00A13FAB /* MoodsViewModel.swift in Sources */,
 				3DCB6F8A28F3BFAC00A13FAB /* ContentView.swift in Sources */,
 				3DCB6F8828F3BFAC00A13FAB /* MoodDiaryApp.swift in Sources */,
 			);
