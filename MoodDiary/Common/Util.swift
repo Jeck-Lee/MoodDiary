@@ -61,7 +61,9 @@ struct Util {
 		guard let lastDate = lastDayOfMonth(date) else {
 			return (eWeekday, 0)
 		}
-		let days = lastDate.distance(from: firstDate, only: .day)
+		// 이번달의 마지막 날짜에서 이번달의 첫번째 날짜를 빼고 + 1
+		// = 해당 월의 전체 일 수
+		let days = lastDate.distance(from: firstDate, only: .day) + 1
 		
 		return (eWeekday, days)
 	}
